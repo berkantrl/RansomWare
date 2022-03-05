@@ -1,4 +1,6 @@
 
+import SendMail
+
 try:
 
     from cryptography.fernet import Fernet 
@@ -10,8 +12,6 @@ try:
     import time
     import datetime
     import subprocess
-
-    import SendMail
 
     from Crypto.PublicKey import RSA
     from Crypto.Random import get_random_bytes
